@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "SandboxForFree",
+            "environmentType": "Sandbox",
+            "environmentName": "SandboxForFree",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "feb1b1a7-883f-4736-b662-dc0c1ce729f6",
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Sandbox-Projektvertrieb",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync",
+            "tenant": "feb1b1a7-883f-4736-b662-dc0c1ce729f6",
+            "environmentName": "Sandbox-Projektvertrieb",
+            "environmentType": "Sandbox"
+        },
+        {
+            "name": "Sandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "d771ad48-8dd8-44c7-aea6-3b350998511e",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "startupObjectId": 9307,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize"
+        }
+    ]
+}
