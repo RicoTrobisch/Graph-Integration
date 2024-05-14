@@ -43,6 +43,20 @@
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "Synchronize"
+        },
+        {
+            "name": "ASHG Sandbox",
+            "tenant": "4ff12a0a-a02f-4916-aca8-f3c2376fabd7",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox_MLA",
+            //"startupCompany": "O3-OpCo Emil-Figge Str GmbH",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "schemaUpdateMode": "ForceSync",
+            "enableSqlInformationDebugger": true
         }
     ]
 }
