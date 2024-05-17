@@ -1,6 +1,5 @@
 page 90201 "COM Graph User List"
 {
-    //test
     Caption = 'Graph User List';
     PageType = List;
     UsageCategory = Lists;
