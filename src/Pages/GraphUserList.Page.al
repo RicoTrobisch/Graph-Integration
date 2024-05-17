@@ -57,7 +57,10 @@ page 90201 "COM Graph User List"
                 {
                     ApplicationArea = All;
                 }
-
+                field("Office Location"; Rec."Office Location")
+                {
+                    ApplicationArea = All;
+                }
             }
         }
         area(Factboxes)
