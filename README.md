@@ -15,9 +15,9 @@ Notiert Euch die *Client ID*. Hier benötigt Sie später in Business Central.
 
 ![image](https://github.com/RicoTrobisch/Graph-Integration/assets/92314263/b38efc6b-c682-40f5-8fd4-1fe2279f5e84)
 
-Legt die passenden Graph Permissions (*Delegated*) für die App Registration fast. 
+Legt die passenden Graph Permissions (*Delegated* und *Application*) für die App Registration fast. 
 
-![image](https://github.com/RicoTrobisch/Graph-Integration/assets/92314263/f67f88d8-9a29-4cd9-8022-69f2f76b164b)
+![image](https://github.com/RicoTrobisch/Graph-Integration/assets/92314263/10a9bdbf-e1ac-4ea2-9a8b-7aa6b6ad8ff7)
 
 ![image](https://github.com/RicoTrobisch/Graph-Integration/assets/92314263/28500b7d-6bda-4837-a39f-3ddcb73532c1)
 
