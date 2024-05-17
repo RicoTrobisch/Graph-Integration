@@ -6,6 +6,8 @@ page 90200 "COM Graph API Setup Card"
     UsageCategory = Administration;
     SourceTable = "COM Graph API Setup";
     PromotedActionCategories = 'New,Process,Report,Personio,API';
+    InsertAllowed = false;
+    DeleteAllowed = false;
 
 
     layout
@@ -38,4 +40,11 @@ page 90200 "COM Graph API Setup Card"
 
         }
     }
+    trigger OnInit()
+    begin
+        if not Rec.Get then begin
+            Rec.Init;
+            Rec.Insert;
+        end;
+    end;
 }

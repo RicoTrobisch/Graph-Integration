@@ -3,7 +3,7 @@ table 90201 "COM Graph User"
     Caption = 'Graph User';
     DrillDownPageId = "COM Graph User List";
     LookupPageId = "COM Graph User Card";
-
+    DataPerCompany = false;
 
     fields
     {
