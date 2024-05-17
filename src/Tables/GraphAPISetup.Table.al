@@ -1,6 +1,7 @@
 table 90200 "COM Graph API Setup"
 {
     DataClassification = ToBeClassified;
+    DataPerCompany = false;
 
     fields
     {
