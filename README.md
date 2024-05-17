@@ -39,6 +39,8 @@ Anschließend erstellt Ihr ein neues Client Secret. ⚠️ Notiert Euch den *Val
 
 Definiert jetzt noch eine Redirect Url, wie im Screenshot zu sehen. *(https://businesscentral.dynamics.com/OAuthLanding.htm)*
 
+Definiert außerdem die Front-channel logout URL als *(https://graph.microsoft.com/v1.0/)*
+
 ![image](https://github.com/RicoTrobisch/Graph-Integration/assets/92314263/975f1225-a83e-4a6f-ab56-1144650d4da8)
 
 
